@@ -3,7 +3,7 @@ body {
     flex-direction: column;   
 }
 
-.header, .footer, .main, .info, .testimonials, .signup {
+.header, .footer, .main, .info, .testimonials {
   padding-left: 130px;
   padding-right: 130px;   
 }
@@ -73,11 +73,71 @@ a, .content .subtext {
 .content button {  
   background-color: #3882f6;
   border-radius: 10px;
+  border-color: #1F2937;
   max-width: 30%;
   color: #E5E7Eb;
   padding: 8px;
   font-weight: bolder;
-  margin-top: 4px;
+  margin-top: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 60px;    
 }
 
+.info .title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  
+  margin-bottom: 30px;
+  align-self: center;
+}
+.images {
+  display: flex;
+  justify-content: space-between;  
+}
+.container {
+  max-width: 200px;
+}
+.container img {
+  max-width: 200px;  
+} 
+
+.testimonials {
+  background-color: #E5E7Eb; 
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 30px;   
+  
+}
+.testimonials p {
+  font-size: 36px;
+  font-style:italic;
+  font-weight: lighter;
+  max-width: 80%;
+  align-self: center;
+  
+}
+.testimonials .source {
+  font-size: 24px;
+  font-weight: bolder;
+  align-self: flex-end;
+  padding-right: 60px;    
+}
+
+.signup {
+  background-color: #3882f6;
+  margin-right: 130px;
+  margin-left: 130px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  
+}
 

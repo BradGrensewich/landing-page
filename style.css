@@ -1,6 +1,7 @@
 body {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header, .footer, .main, .info, .testimonials {
@@ -70,7 +71,7 @@ a, .content .subtext {
   font-weight:bolder;
   color: #F9FaF8;
 }
-.content button {  
+button {  
   background-color: #3882f6;
   border-radius: 10px;
   border-color: #1F2937;
@@ -117,7 +118,7 @@ a, .content .subtext {
 .testimonials p {
   font-size: 36px;
   font-style:italic;
-  font-weight: lighter;
+  
   max-width: 80%;
   align-self: center;
   
@@ -136,8 +137,33 @@ a, .content .subtext {
   margin-top: 60px;
   margin-bottom: 60px;
   display: flex;
-  justify-content: space-between;
-  padding: 50px;
   
+  padding: 50px;  
 }
+
+.hook {
+  font-size: 24px;
+  color:#F9FaF8;
+}
+
+.buttonBox {  
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.signup button {
+  border-color: #F9FaF8;
+  padding-left: 30px;
+  padding-right: 30px;  
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+
 

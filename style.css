@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
 }
 
 .header, .footer, .main, .info, .testimonials {
@@ -106,10 +107,9 @@ button {
 
 
 .container img {
-  max-width: 200px;
-  border-color: red;
+  max-width: 200px;  
   border-radius: 10%;
-  border: 10;  
+   
 } 
 
 .testimonials {

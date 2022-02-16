@@ -109,6 +109,7 @@ button {
 .container img {
   max-width: 200px;  
   border-radius: 10%;
+  border: 3px solid #1F2937;
    
 } 
 
